@@ -1,3 +1,5 @@
+// file:/home/cicero-arch-omen/.config/surfingkeys/surfingkeys_config.js
+
 // file:/home/cicero-arch-omen/.config/surfingkeys/surfingkeys.js
 
 // an example to create a new mapping `ctrl-y`
@@ -44,7 +46,6 @@ api.unmap("X"); // Unmap the default 'X'
 // Disable Alt key menus
 settings.blocklistPattern = /.*\balt\b.*/; // Block any Alt key interference
 
-
 // Map new keys
 api.map("H", "S"); // Go back in history
 api.map("L", "D"); // Go forward in history
@@ -53,17 +54,15 @@ api.map("L", "D"); // Go forward in history
 api.unmap("S");
 api.unmap("D");
 
-
 // Unmap the default `d` and `u` keys
 // Unmap default actions for `Ctrl+d` and `Ctrl+u`
-api.unmap("<Ctrl-d>");
-api.unmap("<Ctrl-u>");
-api.unmap("d");
-api.unmap("u");
+// api.unmap("<Ctrl-d>");
+// api.unmap("<Ctrl-u>");
+// api.unmap("d");
+// api.unmap("u");
 // Map `Ctrl+d` and `Ctrl+u` to their respective scrolling actions
-api.map("<Ctrl-d>", "d");
-api.map("<Ctrl-u>", "u");
-
+// api.map("<Ctrl-d>", "d");
+// api.map("<Ctrl-u>", "u");
 
 // NOTE: set theme
 settings.theme = `
@@ -104,4 +103,3 @@ settings.theme = `
     font-size: 20pt;
 }`;
 // click `Save` button to make above settings to take effect.</ctrl-i></ctrl-y>
-
